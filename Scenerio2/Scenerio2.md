@@ -1,6 +1,6 @@
 ## Test Case1:
 
-This scenerio focuses on commmon file shared between multiple MRs from a single feature branch.
+This testcase focuses on commmon file shared between multiple MRs from a single feature branch.
 
 1. From feature1, MR1 is raised and  this MR contains 2 files:<br>
    a> HelloWorld.cls<br>
