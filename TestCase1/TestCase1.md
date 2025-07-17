@@ -1,4 +1,4 @@
-## Test Case1:
+## Test Case 1
 
 This testcase focuses on commmon file shared between multiple MRs from a single feature branch.
 
