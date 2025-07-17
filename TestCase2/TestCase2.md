@@ -2,7 +2,7 @@
 
 From single feature branch(feature1) multiple MRs are raised with different lables.
 
-1. From feature1, MR1 is raised, this MR contains 4 files:<br>
+1. From feature1, MR1 is raised, this MR contains 4 files{**release_a**}:<br>
    a> AccountAutoNumberTriggerHandler.cls<br>
    b> AccountAutoNumberTriggerHandler.cls-meta.xml<br>
    c> AccountAutoNumberTriggerTest.xml<br>
@@ -17,7 +17,7 @@ This MR is tagged with "release_a"
 ![alt text](Screenshots/2.png)
 
 
-2. From feature1, MR2 is raised, this MR contains 4 files:<br>
+2. From feature1, MR2 is raised, this MR contains 4 files{**release_b**}<br>
    a> HelloWorld.cls<br>
    b> HelloWorldcls-meta.xml<br>
    c> HelloWorldTest.cls-meta.xml<br>
@@ -32,7 +32,7 @@ This MR is tagged with "release_b"
 ![alt text](Screenshots/4.png)
 
 
-3. From feature1, MR3 is raised, this MR contains 4 files:<br>
+3. From feature1, MR3 is raised, this MR contains 4 files{**release_a**}<br>
    a> GreetingService.cls<br>
    b> GreetingService.cls-meta.xml<br>
    c> GreetingServiceTest.cls<br>
@@ -48,5 +48,5 @@ This MR is tagged with "release_a"
 
 
 
-#### QA Pipeline Success:(Manually Triggered after merging all MRs into DEV)
+#### QA Pipeline Success:(Manually Triggered after merging all MRs into DEV where "LABEL_FILTER=release_a")
 ![alt text](Screenshots/7.png)
