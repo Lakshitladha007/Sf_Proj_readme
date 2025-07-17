@@ -21,7 +21,7 @@ This MR is tagged with label "release_x"<br>
 #### DEV Pipeline Success:(Automatically Triggered)
 ![alt text](Screenshots/2.png)
 
-#### QA Pipeline Success:(Manually Triggered)
+#### QA Pipeline Success:(Manually Triggered where "LABEL_FILTER=release_x)
 ![alt text](Screenshots/3.png)
 
 2. From feature1, MR2 is raised and this MR contains 1 new file1, deleted 1 files and updated 1 file{**release_y**}:<br>
@@ -52,7 +52,7 @@ This MR is tagged with "release_y"
 #### DEV Pipeline Success:(Automatically Triggered)
 ![alt text](Screenshots/5.png)
 
-#### QA Pipeline Success:(Manually Triggered)
+#### QA Pipeline Success:(Manually Triggered where "LABEL_FILTER=release_x)
 ![alt text](Screenshots/6.png)
 
 3. From feature1, MR3 is raised, this MR contains 1 new file, 1 updated file{**release_x**}:<br>
@@ -76,5 +76,5 @@ This MR is tagged with "release_x"
 #### DEV Pipeline Success:(Automatically Triggered)
 ![alt text](Screenshots/8.png)
 
-#### QA Pipeline Success:(Manually Triggered)
+#### QA Pipeline Success:(Manually Triggered where "LABEL_FILTER=release_x)
 ![alt text](Screenshots/9.png)
